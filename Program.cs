@@ -1,4 +1,4 @@
-using Systemusing  System ; 
+using System; 
 
 namespace Simple
 {
@@ -41,7 +41,40 @@ namespace Simple
 
             // const char integral = '\u{222B}';
             // Console.WriteLine(integral);
-            Console.WriteLine("Hello World");
+            Console.WriteLine("force = {0} ", force);
+            Console.WriteLine("{0} is the distance.", distance);
+
+
+            if (lost == true && expensive == true)
+            {
+
+                Console.WriteLine("I am really sorry! I will get the manager.");
+            }
+            else if (lost == true && expensive == false) {
+                Console.WriteLine("Here is coupon for 10% off."); 
+            
+            }
+            else {
+                Console.WriteLine("Sorry");
+            }
+            switch (choice) { 
+            
+                case 1:
+                    Console.WriteLine("You chose 1"); 
+                    break; 
+                case 2:
+                    Console.WriteLine("You chose 2"); 
+                    break; 
+
+                case 3:
+                    Console.WriteLine("You chose 3"); 
+                    break; 
+
+                default:
+                    Console.WriteLine("You made an unknown choice"); 
+                    break; 
+            
+            }
         }
     }
 }
