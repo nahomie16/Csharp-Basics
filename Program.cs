@@ -18,6 +18,7 @@ namespace Simple
             int choice = 2;
             const string greeting = "Hello";
             string name = "Karen";
+               
 
             float force = mass * acceleration;
 
@@ -39,8 +40,10 @@ namespace Simple
                 Console.WriteLine("Sorry you are so poor.");
             }
 
-            // const char integral = '\u{222B}';
-            // Console.WriteLine(integral);
+            const char integral = '\u222B';
+            // “\u{222B}”won't run, must remove curly braces {} 
+
+
             Console.WriteLine("force = {0} ", force);
             Console.WriteLine("{0} is the distance.", distance);
 
@@ -75,6 +78,21 @@ namespace Simple
                     break; 
             
             }
+            Console.WriteLine(integral);
+
+            for (int i = 5; i < 11; i++) {
+                Console.WriteLine("i = {0}", i); 
+            }
+
+
+            int age = 0; 
+
+            while(age < 6) { 
+                Console.WriteLine("age = {0}", age);
+                age++; 
+            
+            }
+            Console.WriteLine(greeting + " " +  name ); 
         }
     }
 }
