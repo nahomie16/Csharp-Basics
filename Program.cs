@@ -18,6 +18,25 @@ namespace Simple
                     bool lost = true;
                     bool expensive = true;
                     int choice = 2;
+                    const string greeting = "Hello";
+                    string name = "Karen";
+                 if (heartRate >= 40 && heartRate <= 80)
+            {
+                Console.WriteLine("Heart rate is normal.");
+
+            } else { 
+                Console.WriteLine("Heart rate is not normal."); 
+            
+            }
+            if (deposits>= 100000000){
+
+                Console.WriteLine("You are exceedingly wealthy.");
+
+            }else {
+
+                Console.WriteLine("Sorry you are so poor.");
+            }
+
 
                     // const char integral = '\u{222B}';
                     // Console.WriteLine(integral);
