@@ -1,9 +1,10 @@
 # Csharp-Basics
-Program.cs covers most basics from C#. 
-Running
-from terminal: 
-  mcs Program.cs 
+Program.cs covers most basics from C#. Examples: declaring variables, for loops, while loops, swtich and printing variables.
+## Running 
+ <br> mcs Program.cs </br>
   mono Program.exe 
 
-Authors
+## Author
+
   Nahom Assefa
+ 
